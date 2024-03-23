@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <meta charset="utf-8">
+     <title>Teknikjätten</title>
+      <link rel="stylesheet" href="styles.css">  
+     <meta name="author" content="Daniel Kårvall"/>
+     <meta name="desciption" content="Geografiguiden"/>
+     <meta name="generator" content="Notepad"/> 
+     <meta name="keywords" content="Daniel Kårvall, Geografi, Utbildning, Guide"/>
+   </head>
+    
+   <body>
+      <script src="script.js"></script>
+      <header>
+         
+            <h1>Teknikjätten</h1>
+          <nav class= "menu">
+            
+             <a href="Products.php?type=rea">Home</a>
+             &nbsp;
+             <a href="Products.php?type=Laptop">Laptops</a>
+             &nbsp;
+             <a href="Products.php?type=Hörlur">Hölurar</a> 
+             &nbsp;
+             <a href="Kassa.php">Kassa</a> 
+                        
+          </nav> 
+          
+        </header>
+         <main>  
+           <div class="center">
+            <div class="products-horizontal">
+            <!--===entries===--> <!--===entries===-->
+              <div class="product" id="---namn---">
+                <img src="---image_src---" alt="bild saknas"> 
+                <p class="product-text">Namn: ---namn---</p>
+                <p>Pris: ---pris---</p>
+                <p>Rea: ---rea---</p>
+                <form action="AddProduct.php"  method="post">
+                    <input type="hidden" name="name" id="name" value="---product---">
+                    <button type="submit" onclick="confirmItem()">Lägg till i varukorg</button>
+                </form>
+              </div>
+             <!--===entries===-->     
+            </div>
+              
+
+          </div>
+         
+            
+           
+           
+         </main> 
+       
+       
+  
+   <footer>
+           <address> 
+             <p>Author: Daniel kårvall, <a href ="mailto:daniel.karvall@hotmail.se"> daniel.karvall@hotmail.se </a> </p>
+           </address>
+   </footer>
+  </body>
+</html>
+      

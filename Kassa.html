@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <meta charset="utf-8">
+     <title>Teknikjätten</title>
+      <link rel="stylesheet" href="styles.css">  
+     <meta name="author" content="Daniel Kårvall"/>
+     <meta name="desciption" content="Geografiguiden"/>
+     <meta name="generator" content="Notepad"/> 
+     <meta name="keywords" content="Daniel Kårvall, Geografi, Utbildning, Guide"/>
+   </head>
+    
+   <body>
+   <script src="script.js"></script>
+      <header>
+         
+            <h1>Teknikjätten</h1>
+          <nav class= "menu">
+             <a href="Products.php?type=rea">Home</a>
+             &nbsp;
+             <a href="Products.php?type=Laptop">Laptops</a>
+             &nbsp;
+             <a href="Products.php?type=Hörlur">Hörlurar</a>
+             &nbsp;        
+             <a href="Kassa.php">Kassa</a> 
+                        
+          </nav> 
+          
+        </header>
+          <main class="center"> 
+           <p class="center"></p>
+              
+         
+       <div> 
+           <!--===entries===-->
+        
+          <!--===entries===-->
+         <div class="cashout-horizontal space-between">  
+          <p>
+            <img src="---image_src---" alt="Bild saknas!" class="image-size-cashout">
+          </p>
+          <p>
+            <strong>Namn: </strong> ---namn---<br>
+            <strong>Pris:</strong> ---pris---<br>
+          </p>
+        
+          <p>
+          <strong>Antal:</strong> ---antal---
+          </p>
+          <div class="plus-minus-position">
+              <img src="add-button.png" class="plus-minus-button pointer" alt="Addera!" onclick="addProduct('---product---')">
+              <img src="minus.png" class="plus-minus-button pointer" alt="Ta bort en!" onclick="removeProduct('---product---')">
+          
+          </div>     
+          
+        </div>
+      </div>
+     
+      
+      <!--===entries===-->
+      <p>Totalt pris: ---Totalt---</p>
+      <form method="post" enctype="multipart/form-data" action="FinishOrder.php" class="form-position">
+      <p>
+        <input type="text" name="Förnamn" placeholder="Namn">
+      </p>
+      <p>
+        <input type="text" name="Efternamn" placeholder="Efternamn">
+      </p>
+      <p>
+        <input type="text" name="Email" placeholder="Email">
+      </p>
+      <p>
+        <input type="text" name="Adress" placeholder="Adress">
+      </p> 
+      <strong>
+        Obs! Faktura skickas via epost!
+      </strong>      
+      <p>
+        <input type="submit" name="push_button" value="Sänd order" class="button-size">
+      </p>
+    </form>
+         
+        
+           
+           
+    </main> 
+       
+       
+  
+   <footer>
+           <address> 
+             <p>Author: Daniel kårvall, <a href ="mailto:daniel.karvall@hotmail.se"> daniel.karvall@hotmail.se </a> </p>
+           </address>
+
+   </footer>
+  </body>
+</html>
+      

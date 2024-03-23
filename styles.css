@@ -1,0 +1,263 @@
+html{
+  position: relative;
+ 
+}
+body{
+letter-spacing: .05rem;
+font-family: Georgia, sans-serif;
+background-color: lightblue;
+}
+
+.center{
+
+margin: auto;
+width: 55%;
+border: 5px;
+padding: 10px;
+font-size: x-large;
+position: relative;
+
+
+}
+header{
+ 
+  text-align: center
+  
+}
+.pointer{
+
+   cursor: pointer;
+
+
+}
+
+.middle{
+  text-align: center;
+}
+.main-picture{
+   height: 100%;
+   width: 100%;
+   
+  
+}
+.form-position{
+
+  margin-left: 300px; 
+  
+
+
+}
+.hidden{
+
+  visibility: hidden;
+
+}
+input[type=text]{
+
+    width: 300px;
+    height: 30px; 
+
+
+
+}
+
+.products-horizontal{
+
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+
+
+}
+.cashout-horizontal{
+
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  row-gap: 50px;
+  flex-grow: 4;
+
+
+}
+.cashout-vertical{
+
+  display: flex; 
+  flex-direction: column;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  row-gap: 50px;
+  flex-grow: 4;
+
+
+}
+.products-cashout{
+
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+
+
+
+}
+.plus-minus-button{
+
+   max-height: 30px;
+   max-width: 30px;
+
+}
+.product{
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  white-space: pre-line; 
+  max-width: 200px;
+  justify-content: space-between;
+  
+
+  }
+.space-between{
+
+
+   justify-content: space-between;
+
+}
+.product-text{
+ 
+  max-width: 100 px;
+
+}
+.plus-minus-position{
+  
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-top: 40px;
+  justify-content: space-between; 
+  column-gap: 5px; 
+
+}
+.button-size{
+ 
+  width: 300px;
+  height: 60px;
+
+
+}
+.menu{
+
+ display: flex;
+ justify-content: space-between;
+ padding: 40px;
+ margin: auto;
+ width: 50%;
+ font-size: 30px;
+
+
+}
+.country-information{
+  display: flex;
+  column-gap: 5px;
+  justify-content: flex-start;
+  width: 40%;
+  margin-left: 15%;
+  margin-right: 15%;
+  column-gap: 50px;
+  margin-top: 100px;
+}
+.main-content-position{
+
+    margin-left: 10%;
+    margin-right: 5%;
+    width: 60%;
+    border: 5px;
+    padding: 10px;
+    font-size: x-large;
+    position: relative;
+}
+.information-box{
+ min-width: 50%;
+}
+länder.information{
+
+}
+.game-position{
+
+ margin-left: 0%;
+}
+
+.text-information{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.incline{
+ margin-left: 5%;
+ }
+h1{
+font-size: 55px;
+}
+h2{
+font-size: 25px;
+margin-left: 5%;
+}
+.game-title{
+ font-size: 45px;
+
+}
+
+.game-box{
+  display: flex;
+  column-gap: 5px;
+  justify-content: flex-start;
+  width: 40%;
+
+}
+.image-size-cashout{
+ 
+  max-height: 75px;
+  max-width: 75px;
+  
+
+}
+.game-picture{
+  max-width: 200px;
+  max-height: 100px;
+}
+.game-information{
+
+  margin-top: 25px;
+}
+#game-button{
+  width: 250px;
+  height: 100px;
+  margin-top: 75px;
+  font-size: 30px;
+}
+.optionSize{
+ font-size: 25px;
+ width: 190px;
+ height: 25px;
+}
+Input{
+
+  margin top: 25px;
+}
+.hidden{
+
+  display: none;
+}
+#game-score{
+  display: none;
+ 
+}
+.nextFlag{
+
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+}
+
